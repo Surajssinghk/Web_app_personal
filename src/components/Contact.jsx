@@ -133,7 +133,7 @@ export default function Contact() {
         <motion.div {...fadeUp(0.25)} style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <motion.a
             id="email-link"
-            href="mailto:hello@yuvrajsingh.design"
+            href="mailto:yuvrajsingh24100@gmail.com"
             whileHover={{ scale: 1.04, boxShadow: '0 0 40px rgba(192,132,252,0.3)' }}
             whileTap={{ scale: 0.97 }}
             style={{
@@ -155,7 +155,7 @@ export default function Contact() {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
               <polyline points="22,6 12,13 2,6"/>
             </svg>
-            hello@yuvrajsingh.design
+            yuvrajsingh24100@gmail.com
           </motion.a>
         </motion.div>
 
