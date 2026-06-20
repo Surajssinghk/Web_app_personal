@@ -124,6 +124,21 @@ export default function About() {
                   <span style={{ color: 'var(--color-muted)', fontSize: '0.8rem', marginTop: '0.5rem' }}>
                     Your photo here
                   </span>
+                  
+                  {/* Profile image layer (loads if /profile.jpg is added in your GitHub repository) */}
+                  <img 
+                    src="/profile.jpg" 
+                    alt="Yuvraj Singh"
+                    onError={(e) => { e.target.style.display = 'none'; }}
+                    style={{
+                      position: 'absolute',
+                      inset: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                      borderRadius: '20px',
+                    }}
+                  />
                 </div>
               </div>
 
