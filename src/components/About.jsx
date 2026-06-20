@@ -119,7 +119,7 @@ export default function About() {
                     color: '#fff',
                     boxShadow: '0 0 40px rgba(192,132,252,0.4)',
                   }}>
-                    AM
+                    YS
                   </div>
                   <span style={{ color: 'var(--color-muted)', fontSize: '0.8rem', marginTop: '0.5rem' }}>
                     Your photo here
@@ -162,7 +162,7 @@ export default function About() {
               color: 'var(--color-muted)',
               marginBottom: '1.5rem',
             }}>
-              Hi, I'm Alex — a graphic designer with a passion for crafting visual stories that resonate. I specialise in brand identity, UI/UX, and print design, working at the intersection of strategy and aesthetics.
+              Hi, I'm Yuvraj — a graphic designer with a passion for crafting visual stories that resonate. I specialise in brand identity, UI/UX, and print design, working at the intersection of strategy and aesthetics.
             </p>
             <p style={{
               fontSize: '1.05rem',

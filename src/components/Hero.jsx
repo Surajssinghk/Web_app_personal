@@ -92,25 +92,6 @@ export default function Hero() {
         animate="show"
         style={{ position: 'relative', zIndex: 1, maxWidth: '820px', width: '100%' }}
       >
-        {/* Badge */}
-        <motion.div variants={item} style={{ marginBottom: '1.5rem' }}>
-          <span style={{
-            display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-            padding: '0.35rem 1rem',
-            border: '1px solid rgba(192,132,252,0.3)',
-            borderRadius: '100px',
-            fontSize: '0.8rem',
-            fontWeight: 500,
-            color: 'var(--color-accent)',
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            background: 'rgba(192,132,252,0.07)',
-          }}>
-            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--color-accent)', display: 'inline-block', animation: 'pulse 2s infinite' }} />
-            Available for freelance work
-          </span>
-        </motion.div>
-
         {/* Name */}
         <motion.h1
           variants={item}
@@ -124,7 +105,7 @@ export default function Hero() {
             color: 'var(--color-text)',
           }}
         >
-          Alex Morgan
+          Yuvraj Singh
         </motion.h1>
 
         {/* Animated discipline */}

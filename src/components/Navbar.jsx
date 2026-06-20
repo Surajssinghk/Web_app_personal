@@ -62,7 +62,7 @@ export default function Navbar() {
                 letterSpacing: '-0.03em',
               }}
             >
-              <span className="gradient-text">AM</span>
+              <span className="gradient-text">YS</span>
               <span style={{ color: 'var(--color-muted)', marginLeft: '0.4rem', fontWeight: 400, fontSize: '0.95rem' }}>
                 portfolio
               </span>

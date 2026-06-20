@@ -26,7 +26,7 @@ export default function Footer() {
           fontSize: '1.1rem',
           letterSpacing: '-0.02em',
         }}>
-          <span className="gradient-text">AM</span>
+          <span className="gradient-text">YS</span>
           <span style={{ color: 'var(--color-muted)', fontWeight: 400, fontSize: '0.85rem', marginLeft: '0.35rem' }}>
             portfolio
           </span>
@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p style={{ color: 'var(--color-muted)', fontSize: '0.8rem' }}>
-          © {year} Alex Morgan. All rights reserved.
+          © {year} Yuvraj Singh. All rights reserved.
         </p>
 
         {/* Back to top */}

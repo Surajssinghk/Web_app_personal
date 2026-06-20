@@ -7,7 +7,7 @@ const socials = [
   {
     id: 'linkedin',
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/alexmorgan',
+    href: 'https://linkedin.com/in/yuvrajsingh',
     color: '#0a66c2',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -18,7 +18,7 @@ const socials = [
   {
     id: 'behance',
     label: 'Behance',
-    href: 'https://behance.net/alexmorgan',
+    href: 'https://behance.net/yuvrajsingh',
     color: '#1769ff',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -29,7 +29,7 @@ const socials = [
   {
     id: 'dribbble',
     label: 'Dribbble',
-    href: 'https://dribbble.com/alexmorgan',
+    href: 'https://dribbble.com/yuvrajsingh',
     color: '#ea4c89',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -40,7 +40,7 @@ const socials = [
   {
     id: 'instagram',
     label: 'Instagram',
-    href: 'https://instagram.com/alexmorgan.design',
+    href: 'https://instagram.com/yuvrajsingh.design',
     color: '#e1306c',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -133,7 +133,7 @@ export default function Contact() {
         <motion.div {...fadeUp(0.25)} style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <motion.a
             id="email-link"
-            href="mailto:hello@alexmorgan.design"
+            href="mailto:hello@yuvrajsingh.design"
             whileHover={{ scale: 1.04, boxShadow: '0 0 40px rgba(192,132,252,0.3)' }}
             whileTap={{ scale: 0.97 }}
             style={{
@@ -155,7 +155,7 @@ export default function Contact() {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
               <polyline points="22,6 12,13 2,6"/>
             </svg>
-            hello@alexmorgan.design
+            hello@yuvrajsingh.design
           </motion.a>
         </motion.div>
 
